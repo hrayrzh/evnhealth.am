@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: SegoeUI-Semibold, Segoe UI;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/******HEADER START******/
+header {
+    padding-top: 10px;
+}
+
+#headlogo {
+    text-align: center;
+}
+
+#headlogo img {
+    height: 150px;
+}
+
+#navbar {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#navbar li {
+    display: inline;
+    margin: 0 30px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    font-weight: 600;
+    font-family: SegoeUI-Semibold, Segoe UI;
+    font-size: 15px;
+    color: #008000;
+}
+
+
+/******HEADER END******/
+/******MAIN START******/
+
+main{
+/*    margin: 0 10%;*/
+    text-align: justify;
+    background-color: #ebebeb;
+}
+.rflex, .lflex, #projects>div {
+    display: flex;
+}
+
+.rflex div:last-child, .lflex div:first-child, #projects>div>div:first-child{
+    width: 55%;
+}
+
+#about div, #projects>div>div{
+    margin: 15px 3%; 
+}
+
+
+main h3, main h2, main h4, main h5{
+    text-align: center;
+    color: #80C535;
+}
+
+main h4{
+    font-style: italic;
+}
+
+main h2{
+    margin: 15px;
+}
+
+#about h3, #projects h3{
+    padding-bottom: 15px;
+}
+
+#projects, #team, #partners, #donate, #about{
+    border-top: 20px solid #80C535;
+    padding: 2% 5%;
+}
+
+#about{
+    border-top: 40px solid #80C535;
+}
+
+#donate{
+    padding: 0 0 20px 0;
+}
+
+#team a{
+    text-decoration: underline;
+    color: blue;
+}
+
+#projects>div>div>p:last-child, #team p{
+    font-size: 14px;
+}
+
+main #about img, main #projects img{
+    width: 300px;
+    margin: auto;
+}
+
+
+#team>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#team>div>div{
+    width: 310px;
+    margin: 1%;
+    border: 5px solid #80C535;
+    padding: 5px 15px;
+}
+
+#team img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#partners img{
+    height: 100px;
+    margin: 20px;
+}
+
+#partners div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#donate p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+/******MAIN END******/
+
+
+
+/******FOOTER START******/
+
+footer {
+    padding: 0 80px 30px 80px;
+    background-color: #80C535;
+}
+
+footer>div:first-child{
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: SegoeUI-Semibold, Segoe UI;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#footer div {
+    width: 50%;
+}
+
+#footer div:last-child{
+    text-align: right;
+}
+
+#footer ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+#footer li {
+    list-style-type: none;
+}
+
+#footer p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 4.5% 0;
+    color: #fff;
+}
+
+#footer span,
+#footer a {
+    font-size: 25px;
+}
+
+#footer img {
+    height: 20px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+#footer div:last-child img{
+    margin: 0 0 0 5px;
+}
+
+#copyright {
+    font-family: Montserrat-Medium, Montserrat;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ebebeb;
+    margin-top: 50px;
+}
+
+/******FOOTER END******/
