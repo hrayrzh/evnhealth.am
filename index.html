@@ -6,11 +6,8 @@
     <title>Environment and Health</title>
     <link rel="shortcut icon" href="img/ENV%20NGO-logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
-
 </head>
-
 <body>
     <header>
         <div id="headlogo">
@@ -18,9 +15,7 @@
                 <img src="img/ENV%20NGO-logo.png" alt="">
                 <img src="img/NGO-logo-name.png" alt="">
             </a>
-            
         </div>
-
         <div id="navbar">
             <ul>
                 <li><a href="#about">ABOUT</a></li>
@@ -32,17 +27,17 @@
                 <li><a href="#footer">CONTACT US</a></li>
             </ul>
         </div>
-
         <div style="margin: auto">
             <div id="secondary-slider" class="splide" style="margin: auto; margin-bottom: 40px">
                 <div class="splide__track">
                     <ul class="splide__list" id="BannerSlider">
-                        <li class="splide__slide"><img src="img/tesadaran/1.jpg" alt=""></li>
+                        <li class="splide__slide">
+                            <div class="splide__slide__container"><img src="img/tesadaran/1.jpg" alt=""></div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-
     </header>
     <main>
         <div id="about">
@@ -147,11 +142,12 @@
                     <img src="img/expert/Anna%20Tutunjyan.png" alt="">
                     <h3>Anna Tutunjyan</h3>
                     <h4>Environmental Expert</h4>
-                    <p>Anna has a PhD in Engineering. Her expertise is in environmental chemistry, hydro- chemistry and environmental monitoring. She is the Laureate in "Environmental Management Youth Competition 2006" organized by the Armenian Branch of International Academy of Ecology. As a young researcher and environmental specialist she involves in a number of projects and activities in different sectors. She is an author of more than 11 scientific articles and a monography. 
-                    <br> 
-                    <i>She believes in God, in the victory of justice and kindness, and that the guarantee of success is good education and hard working.</i>
-                    <br> 
-                    <a href="https://www.linkedin.com/in/anna-tutunjyan-b1596354/" target="blank">Linkdin link</a> </p>
+                    <p>Anna has a PhD in Engineering. Her expertise is in environmental chemistry, hydro- chemistry and environmental monitoring. She is the Laureate in "Environmental Management Youth Competition 2006" organized by the Armenian Branch of International Academy of Ecology. As a young researcher and environmental specialist she involves in a number of projects and activities in different sectors. She is an author of more than 11 scientific articles and a monography.
+                        <br>
+                        <i>She believes in God, in the victory of justice and kindness, and that the guarantee of success is good education and hard working.</i>
+                        <br>
+                        <a href="https://www.linkedin.com/in/anna-tutunjyan-b1596354/" target="blank">Linkdin link</a>
+                    </p>
                 </div>
                 <div>
                     <img src="img/expert/Vahagn%20Sargsyan.png" alt="">
@@ -358,12 +354,11 @@
                 cover: true,
                 height: "400px",
                 autoplay: true,
-//                perPage: 3,
                 width: '50%',
+                type: 'loop',
+                speed: 800,
             }).mount();
         });
-
     </script>
 </body>
-
 </html>
